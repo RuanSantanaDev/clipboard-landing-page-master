@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-size: 18px;
+    font-family:"Bai Jamjuree";
+}
+p{
+    font-size: 14px;
+}
+header{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+header h1{
+    padding-top: 25px;
+    color: hsl(210, 10%, 33%);
+
+}
+header p{
+    text-align: center;
+    max-width: 443px;
+    padding-top:15px ;
+    padding-bottom: 20px;
+}
+button{
+    width: 170px;
+    height: 35px;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    
+}
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow:hsl(171deg 66% 44% / 7%) 0px 5px;
+}
+.mac{
+    background-color: hsl(233, 100%, 69%) ;
+    box-shadow: hsl(233deg 100% 69% / 7%) 0px 5px; ;
+}
+.snippets{
+    margin: 50px 0px 85px 0px ;
+}
+
+.text-center h2{
+    line-height: 60px;
+    text-align: center ;
+    color:hsl(210, 10%, 33%);
+}
+.text-center p{
+    margin: 0px 250px 35px 250px;
+    text-align: center 
+
+}
+.snippets h3 {
+    line-height: 35px;
+}
+.snippets .computer-container{
+    display:flex;
+
+}
+.snippets .computer img{
+    max-width:530px;
+    display: inline;
+}
+.snippets .lateral{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px;
+
+}
+.snippets .lateral p{
+    line-height:20px;
+}
+.access{
+    text-align: center;
+}
+.access p{
+    margin: 0px 160px 0px 160px;
+}
+.access img{
+    max-width:700px;
+}
+.brands{
+    text-align: center;
+}
+.desenhos{
+    display: flex;
+    margin: 50px auto;
+    width: 70%;
+    justify-content: space-around;
+}
+
+
+
+.text{
+    display: flex;
+}
+
+.text h3{
+    margin-bottom: 5px ;
+}
+
+
+.empresas img{
+    margin: 40px 20px;
+}
+.dowloand{
+    text-align: center;
+    margin: 60px 0px 70px 0px;
+
+}
+.dowloand h2{
+    margin-bottom: 20px;
+}
+.dowloand p{
+    margin-bottom: 30px;
+}
+
+.baseboard{
+    background-color: hsl(201deg 11% 66% / 23%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    
+}
+.baseboard .logo{
+    width: 40px;
+    height: 40px;
+}
+.footer{
+    display: flex;
+    height: 70px;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.footer p{
+    padding-right: 30px;
+    color: hsl(210, 10%, 33%);
+    font-size: 18px;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    
+}
+.redes-sociais img{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+@media (max-width: 750px){
+ 
+        
+    header{
+        background-image:url(images/bg-header-mobile.png);
+        background-repeat: repeat-x;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    header h1{
+        width: 350px;
+        text-align: center;
+    }
+    header p{
+        width: 270px;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    button{
+        margin-top:15px;
+    }
+    .snippets{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        
+    }
+    .text-center{
+        width: 260px;
+    }
+    .text-center h2{
+        line-height: 35px;
+    }
+    .text-center p{
+        margin: 0;
+    }
+    .snippets .computer-container{
+        display:block;
+    
+    }
+    .computer  {
+        display: flex;
+        justify-content: center;
+        width: 320px;
+
+    }
+    .computer img{
+        width: 100%;
+    }
+    .snippets .lateral{
+        display: block;
+        width: 260px;
+        margin: 0 0 70px 20px;
+        text-align: center;
+    }
+    .access{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin-bottom: 70px;
+    
+    }
+    .access img {
+        width: 300px;
+    }
+    .access p{
+        text-align: center;
+        width: 270px;
+        margin: 0;
+    }
+    .brands{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .brands h2{
+        text-align: center;
+        margin:0 70px;
+    }
+    .brands p{
+        margin-bottom: 70px;
+    }
+    .desenhos{
+       display: block;
+    }
+    .empresas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .empresas img{
+        width: 139px;
+        height: 51px;
+    }
+    .dowloand{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:70px;
+    }
+    .dowloand h2{
+        margin: 0 77px;
+    }
+    .dowloand p{
+        width: 268px;
+    }
+    .baseboard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+
+    }
+    .logo{
+       margin:  20px 30px 20px 0px;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap:nowrap;
+        height: auto;
+        padding: 0;
+    }
+    .footer p{
+        padding-bottom: 20px;
+    }
+    .redes-sociais{
+      
+    }
+}
