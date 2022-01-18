@@ -24,7 +24,6 @@ header{
 header h1{
     padding-top: 25px;
     color: hsl(210, 10%, 33%);
-
 }
 header p{
     text-align: center;
@@ -37,8 +36,7 @@ button{
     height: 35px;
     border-radius: 50px;
     border-style: none;
-    color: white;
-    
+    color: white; 
 }
 .ios{
     background-color: hsl(171, 66%, 44%);
@@ -101,9 +99,6 @@ button{
     width: 70%;
     justify-content: space-around;
 }
-
-
-
 .text{
     display: flex;
 }
@@ -151,6 +146,10 @@ button{
     color: hsl(210, 10%, 33%);
     font-size: 18px;
 }
+ .footer p:hover {
+    transition-duration: 0.6s;
+    color: hsl(171, 66%, 44%);
+}
 .redes-sociais{
     display: flex;
     justify-content: flex-end;
@@ -163,9 +162,12 @@ button{
     height: 20px;
     margin: 10px;
 }
-@media (max-width: 750px){
- 
-        
+.redes-sociais img:hover{
+    transition-duration: 0.6s;
+    background-color: hsl(171, 66%, 44%);
+    
+}
+@media (max-width: 750px){ 
     header{
         background-image:url(images/bg-header-mobile.png);
         background-repeat: repeat-x;
@@ -195,7 +197,6 @@ button{
         display: flex;
         flex-direction: column;
         align-items:center;
-        
     }
     .text-center{
         width: 260px;
@@ -243,7 +244,6 @@ button{
     .brands{
         display: flex;
         flex-direction: column;
-        
     }
     .brands h2{
         text-align: center;
@@ -259,7 +259,6 @@ button{
         display: flex;
         flex-direction: column;
         align-items: center;
-       
     }
     .empresas img{
         width: 139px;
@@ -282,7 +281,6 @@ button{
         flex-direction: column;
         align-items: center;
         height: auto;
-
     }
     .logo{
        margin:  20px 30px 20px 0px;
@@ -296,8 +294,5 @@ button{
     }
     .footer p{
         padding-bottom: 20px;
-    }
-    .redes-sociais{
-      
     }
 }
